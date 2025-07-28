@@ -1,14 +1,89 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "success": true,
+    "events": [
+        {
+            "id": 2,
+            "user_id": 2,
+            "title": "Prueba 1",
+            "description": "Descripcion prueba 1",
+            "address": "calle descripcion prueba 1",
+            "start_date": "2025-07-25 10:35:00",
+            "end_date": "2025-07-31 10:35:00",
+            "latitude": "34.3434000",
+            "longitude": "-34.3434000",
+            "category_id": 10,
+            "is_public": 1,
+            "entry_type_id": 2,
+            "capacity_type_id": 3,
+            "province_id": 3,
+            "locality_id": 2,
+            "place_id": 2,
+            "has_program": 0,
+            "created_at": "2025-01-31T09:36:10.000000Z",
+            "updated_at": "2025-07-14T19:45:30.000000Z",
+            "estado_evento_id": 3,
+            "main_image": "/storage/images/1738316467_fried-fish-with-potato-mash_140725-3753.jpg",
+            "category": {
+                "id": 10,
+                "name": "Fiestas"
+            },
+            "place": {
+                "id": 2,
+                "name": "Villalba Pueblo",
+                "locality_id": 2,
+                "postal_code": "28400"
+            },
+            "locality": {
+                "id": 2,
+                "name": "Collado Villalba",
+                "province_id": 3,
+                "province": {
+                    "id": 3,
+                    "name": "Madrid"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "user_id": 2,
+            "title": "Fiestas de Mozos, Casados y Viudos en El Escorial: de generación en generación",
+            "description": "Se celebran del 30 de julio al 3 de agosto, con orquestas, actividades infantiles, el clásico Torneo de Bandas, un espectáculo ecuestre en La Manguilla, un tributo a El Canto del Loco y, por supuesto, la presencia de las Presidentas. La comisión, integrada por más de 50 vecinos, lleva meses preparando el programa.\r\n\r\nLas Fiestas de Mozos, Casados y Viudos, recuperadas oficialmente el pasado año (aunque ya en 2023 hubo unas “prefiestas”) vuelven a El Escorial del 30 de julio al 3 de agosto, haciendo de la tradición y la participación de los vecinos sus principales señas de identidad. Prueba de ello es el trabajo que desde hace meses viene realizando una Comisión en la que figuran más de 50 personas, entre los miembros de la directiva y los vocales.",
+            "address": "El Escorial",
+            "start_date": "2025-07-30 09:00:00",
+            "end_date": "2025-08-03 23:59:00",
+            "latitude": "34.3434000",
+            "longitude": "-34.3434000",
+            "category_id": 14,
+            "is_public": 1,
+            "entry_type_id": 2,
+            "capacity_type_id": 3,
+            "province_id": 3,
+            "locality_id": 55,
+            "place_id": 4,
+            "has_program": 0,
+            "created_at": "2025-07-28T16:02:08.000000Z",
+            "updated_at": "2025-07-28T19:26:31.000000Z",
+            "estado_evento_id": 3,
+            "main_image": "/storage/images/1753722834_Orquesta-La-Factoria-Detalle.jpg",
+            "category": {
+                "id": 14,
+                "name": "Fiestas Locales"
+            },
+            "place": {
+                "id": 4,
+                "name": "El Escorial",
+                "locality_id": 55,
+                "postal_code": "2000"
+            },
+            "locality": {
+                "id": 55,
+                "name": "El Escorial",
+                "province_id": 3,
+                "province": {
+                    "id": 3,
+                    "name": "Madrid"
+                }
+            }
+        }
+    ]
 }
